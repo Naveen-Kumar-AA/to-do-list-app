@@ -1,10 +1,10 @@
 import { useState } from 'react';
 import './App.css';
 import Todo from './Todo';
-import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
 import Fab from '@mui/material/Fab';
 import AddIcon from '@mui/icons-material/Add';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const [todoList, setTodoList] = useState([]);
@@ -16,9 +16,9 @@ const App = () => {
   }
   //<Icon color="primary">add_circle</Icon>
   return (
-    <div className='mainComponent'>
-      <div className='addNew'>
-        <div className='mainAllignment'>
+    <div>
+      <div >
+        <div className="position-absolute top-50 start-50 translate-middle ">
           <div className='AddInput'>
           <TextField id="filled-basic" label="Enter new task" variant="filled" onChange={event => setTaskName(event.target.value)}></TextField>
           </div>
