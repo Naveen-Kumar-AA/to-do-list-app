@@ -37,37 +37,13 @@
     }
 }
 
-.mainComponent {
-    background-color: rgb(176, 216, 253);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.mainAllignment{
-    margin: auto;
-    width: 50%;
-    position: relative;
-    top: 20px;
-}
-
-.addNew{
-    
-    border-radius: 10px;
-    border: rgb(88, 98, 240);
-    margin: auto;
-    width: 50%;
-    position: relative;
-    height: 100%;
-}
-
-.AddButton{
+.AddButton {
     display: inline-block;
     position: relative;
     top: 10px;
     left: 10px;
 }
 
-.AddInput{
+.AddInput {
     display: inline-block;
 }
